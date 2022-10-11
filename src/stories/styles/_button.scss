@@ -1,0 +1,159 @@
+@import "./variables.scss";
+.btn {
+    background-color: transparent;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 10px;
+    padding: 15px 10px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+    font-size: 16px;
+}
+.btn-filled {
+    &.btn-primary {
+        border-color: $primary;
+        background-color: $primary;
+        color: $white;
+        &:hover {
+            border-color: $primary-hover;
+            background-color: $primary-hover;
+        }
+        &:focus {
+            border-color: $black;
+            background-color: $primary-focus;
+        }
+    }
+    &.btn-secondary { 
+        border-color: $secondary;
+        background-color: $secondary;
+        color: $white;
+        &:hover {
+            border-color: $secondary-hover;
+            background-color: $secondary-hover;
+        }
+        &:focus {
+            border-color: $black;
+            background-color: $secondary-focus
+       }
+    }
+    &.btn-danger {
+        border-color: $danger;
+        background-color: $danger;
+        color: $white;
+        &:hover {
+            border-color: $danger-hover;
+            background-color: $danger-hover;
+        }
+        &:focus {
+            border-color: $black;
+            background-color: $danger-focus;
+        }
+    }
+    &.btn-warning {
+        border-color: $warn;
+        background-color: $warn;
+        color: $white;
+        &:hover {
+            border-color: $warn-hover;
+            background-color: $warn-hover;
+        }
+        &:focus {
+            border-color: $black;
+            background-color: $warn-focus;
+        }
+    }
+    &.btn-success { 
+        border-color: $success;
+        background-color: $success;
+        color: $white;
+        &:hover {
+            border-color: $success-hover;
+            background-color: $success-hover;
+        }
+        &:focus {
+            border-color: $black;
+            background-color: $success-focus
+       }
+    }
+    &.btn-info {
+        border-color: $info;
+        background-color: $info;
+        color: $white;
+        &:hover {
+            border-color: $info-hover;
+            background-color: $info-hover;
+        }
+        &:focus {
+            border-color: $black;
+            background-color: $info-focus;
+        }
+    }
+}
+.btn-outlined {
+    &.btn-primary {
+        border: 2px solid $primary;
+        color: $primary;
+        &:hover {
+            background-color: rgba($color: $primary-hover, $alpha: 0.25);
+        }
+        &:focus {
+            border: 2px solid $black;
+            background-color: rgba($color: $primary-focus, $alpha: 0.25);
+        }
+    }
+    &.btn-secondary { 
+        border: 2px solid  $secondary;
+        color: $secondary;
+        &:hover {
+            background-color: rgba($color: $secondary-hover, $alpha: 0.25);
+        }
+        &:focus {
+            border: 2px solid $black;
+            background-color: rgba($color: $secondary-focus, $alpha: 0.25);
+       }
+    }
+    &.btn-danger {
+        border:2px solid  $danger;
+        color: $danger;
+        &:hover {
+            background-color: rgba($color: $danger-hover, $alpha: 0.25);
+        }
+        &:focus {
+            border: 2px solid $black;
+            background-color: rgba($color: $danger-focus, $alpha: 0.25);
+        }
+    }
+    &.btn-warning {
+        border: 2px solid  $warn;
+        color: $warn;
+        &:hover {
+            background-color: rgba($color: $warn-hover, $alpha: 0.25);
+        }
+        &:focus {
+            border: 2px solid $black;
+            background-color: rgba($color: $warn-focus, $alpha: 0.25);
+        }
+    }
+    &.btn-success { 
+        border: 2px solid $success;
+        color: $success;
+        &:hover {
+            background-color: rgba($color: $success-hover, $alpha: 0.25);
+        }
+        &:focus {
+            border: 2px solid $black;
+            background-color: rgba($color: $success-focus, $alpha: 0.25);
+       }
+    }
+    &.btn-info {
+        border:2px solid  $info;
+        color: $info;
+        &:hover {
+            background-color: rgba($color: $info-hover, $alpha: 0.25);
+        }
+        &:focus {
+            border: 2px solid $black;
+            background-color: rgba($color: $info-focus, $alpha: 0.25);
+        }
+    }
+}

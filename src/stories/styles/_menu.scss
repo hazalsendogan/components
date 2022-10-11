@@ -1,0 +1,29 @@
+.dropdown-wrapper {
+    position: relative;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.dropdown-wrapper.open .dropdown-menu {
+    display: block;
+}
+.dropdown-menu > ul > li  {
+    padding: 0 20px;
+}
+.dropdown-menu > ul > li > a {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    color: $black;
+    font-weight: 500;
+    font-size: 14px;
+}
+.dropdown-menu > ul > li:last-child > a {
+    border-bottom: none;
+}
